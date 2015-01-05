@@ -1,0 +1,26 @@
+#movie_graph{
+    width:100%;
+    min-height:300px;
+}
+
+#movie_graph .axis path,
+#movie_graph .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.tooltip {
+  position: absolute;
+  width: 150px;
+  height: 80px;
+  pointer-events: none;
+  background-color:white;
+  border-width:1px;
+  border-color:black;
+  border-style:solid;
+}
+
+body {
+  font: 10px sans-serif;
+}
