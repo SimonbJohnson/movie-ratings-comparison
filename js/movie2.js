@@ -78,7 +78,7 @@ imrt_chart
     .group(imrt_group)
     .brushOn(false);
     
-rt_chart.width(260)
+rt_chart.width(270)
     .height(150)
     .margins({top: 10, right: 10, bottom: 20, left: 40})
     .x(d3.scale.linear().domain([0, 100]))
@@ -88,7 +88,7 @@ rt_chart.width(260)
     .yAxisLabel("Count of Movies")
     .gap(-8);
     
-mc_chart.width(260)
+mc_chart.width(270)
     .height(150)
     .margins({top: 10, right: 10, bottom: 20, left: 40})
     .x(d3.scale.linear().domain([0, 100]))
@@ -98,7 +98,7 @@ mc_chart.width(260)
     .yAxisLabel("Count of Movies")
     .gap(-8);
         
-im_chart.width(260)
+im_chart.width(270)
     .height(150)
     .margins({top: 10, right: 10, bottom: 20, left: 40})
     .x(d3.scale.linear().domain([0, 10]))
