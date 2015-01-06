@@ -29,8 +29,16 @@ body {
   font: 10px sans-serif;
 }
 
-.distgraph {
-    padding-left:16px;
+#mc_dist {
+    margin-left:0px;
+}
+
+#rt_dist {
+    margin-left:-10px;
+}
+
+#im_dist {
+    margin-left:0px;
 }
 
 #data-table{
