@@ -47,7 +47,7 @@ rtmc_chart
     .symbolSize(8)
     .opacity(0.1)
     .yAxisLabel("Metacritic Score")
-    .xAxisLabel("Rotten Tomato Score")
+    .xAxisLabel("Rotten Tomatoes Score")
     .dimension(cf.rtmc)
     .group(rtmc_group)
     .brushOn(false);
@@ -72,7 +72,7 @@ imrt_chart
     .y(d3.scale.linear().domain([0,100]))
     .symbolSize(8)
     .opacity(0.1)
-    .yAxisLabel("Rotten Tomato Score")
+    .yAxisLabel("Rotten Tomatoes Score")
     .xAxisLabel("IMDB Score")  
     .dimension(cf.imrt)
     .group(imrt_group)
