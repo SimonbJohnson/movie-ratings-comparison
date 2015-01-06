@@ -21,6 +21,10 @@
   border-style:solid;
 }
 
+.container{
+    min-width:1000px;
+}
+
 body {
   font: 10px sans-serif;
 }
