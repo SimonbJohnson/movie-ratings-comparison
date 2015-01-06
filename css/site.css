@@ -21,10 +21,6 @@
   border-style:solid;
 }
 
-.container{
-    min-width:1000px;
-}
-
 body {
   font: 10px sans-serif;
 }
@@ -34,7 +30,7 @@ body {
 }
 
 #rt_dist {
-    margin-left:-10px;
+    margin-left:-11px;
 }
 
 #im_dist {
