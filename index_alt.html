@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Movie Ratings Comparison</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/site.css"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <script src="js/jquery.js"></script>
+        <script src="js/d3.js" charset="utf-8"></script>
+        <script src="data/data.js" charset="utf-8"></script>  
+    </head>
+    <body>
+        <div class="container">
+            <div id="info_box" class="col-xs-4">
+                <div id="color_select">
+                    <select id="color_selector">
+                        <option value="R">RT</option>
+                        <option value="M">MC</option>
+                        <option value="I" selected="selected">IMDB</option>
+                    </select>                        
+                </div>                     
+            </div>
+            <div id="y_select" class="col-xs-1">
+                <select id="y_selector">
+                    <option value="R">RT</option>
+                    <option value="M" selected="selected">MC</option>
+                    <option value="I">IMDB</option>
+                </select>    
+            </div>
+            <div class="col-xs-7">
+                <div id="movie_graph"></div> 
+                <div id="x_select">
+                    <select id="x_selector">
+                        <option value="R">RT</option>
+                        <option value="M">MC</option>
+                        <option value="I">IMDB</option>
+                    </select>                        
+                </div> 
+            </div>
+        </div>    
+        <script src="js/movie.js"></script>        
+    </body>
+</html>

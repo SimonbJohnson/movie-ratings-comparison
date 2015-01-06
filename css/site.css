@@ -24,3 +24,47 @@
 body {
   font: 10px sans-serif;
 }
+
+.distgraph {
+    padding-left:16px;
+}
+
+#data-table{
+    width:100%;
+}
+
+.table_head {
+    width:120px;
+    display:inline-block;
+    font-size:20px;
+}
+
+.dc-table-group{
+    height:0px;
+    color:white;
+}
+
+.dc-table-label{
+    height:5px;
+    font-size:0px;
+}
+
+tbody{
+    display:table;
+}
+
+.dc-table-column{
+    width:124px;
+}
+
+._0{
+    width:424px;
+}
+
+.title{
+    width:400px;
+}
+
+.datarow{
+    margin-top:40px;
+}
